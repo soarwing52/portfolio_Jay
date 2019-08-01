@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[Link to map](./map.html).
+[Link to map](map.html).
 
 There should be whitespace between paragraphs.
 
