@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="653dba57-6e9f-43aa-a2a7-67394bc61814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jay_profolio/pages/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/no-response.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/settings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/stale.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_default_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/jekyll-theme-hacker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/rouge-base16-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/another-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/bkg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blacktocat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SUPPORT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jekyll-theme-hacker.gemspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/bootstrap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/cibuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/release" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/validate-html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thumbnail.png" beforeDir="false" />
-    </list>
+    <list default="true" id="653dba57-6e9f-43aa-a2a7-67394bc61814" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jay_profolio/pages/templates/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="55" column="131" selection-start-line="55" selection-start-column="128" selection-end-line="55" selection-end-column="131" />
+            <state relative-caret-position="340">
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,11 +182,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -270,8 +237,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jay_profolio/pages/templates/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="55" column="131" selection-start-line="55" selection-start-column="128" selection-end-line="55" selection-end-column="131" />
+        <state relative-caret-position="340">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
