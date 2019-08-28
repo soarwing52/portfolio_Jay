@@ -12,9 +12,9 @@ class Skill(models.Model):
 
 class Project(models.Model):
     name = models.CharField(max_length=20)
-    content = models.CharField(max_length=50)
+    content = models.TextField()
     link = models.URLField(max_length=500, null=True, blank=True)
-    image = models.ImageField(null=True, blank=True)
+    image = models.CharField(null=True, blank=True, max_length=50)
 
     def __str__(self):
         return self.name
@@ -28,7 +28,7 @@ class Section(models.Model):
 
 class About(models.Model):
     name = models.CharField(max_length=20)
-    position = models.CharField(max_length=20)
+    position = models.CharField(max_length=50)
     address = models.CharField(max_length=100)
     phone = models.CharField(max_length=20)
     email = models.EmailField()
