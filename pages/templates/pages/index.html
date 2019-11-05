@@ -6,22 +6,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
-
 	<link rel="stylesheet" href="{% static 'pages/css/open-iconic-bootstrap.min.css' %}">
 	<link rel="stylesheet" href="{% static 'pages/css/animate.css' %}">
-
 	<link rel="stylesheet" href="{% static 'pages/css/owl.carousel.min.css' %}">
 	<link rel="stylesheet" href="{% static 'pages/css/owl.theme.default.min.css' %}">
 	<link rel="stylesheet" href="{% static 'pages/css/magnific-popup.css' %}">
-
 	<link rel="stylesheet" href="{% static 'pages/css/aos.css' %}">
-
 	<link rel="stylesheet" href="{% static 'pages/css/ionicons.min.css' %}">
-
 	<link rel="stylesheet" href="{% static 'pages/css/flaticon.css' %}">
 	<link rel="stylesheet" href="{% static 'pages/css/icomoon.css' %}">
 	<link rel="stylesheet" href="{% static 'pages/css/style.css' %}">
-
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -65,16 +59,15 @@
 
 	</div>
 </section>
+
 <section class="ftco-section ftco-project bg-light" id="projects-section">
 	<div class="container px-md-5">
 		<div class="row justify-content-center pb-5">
-
 			<div class="col-md-12 heading-section text-center ftco-animate">
 				<span class="subheading">Accomplishments</span>
 				<h2 class="mb-4">My Projects</h2>
 				<p>From ESRI toolbox to outspread python applications, present links to Github/Blog</p>
 			</div>
-
 		</div>
 		<div class="row">
 			<div class="col-md-12 testimonial">
@@ -111,8 +104,7 @@
 					<a href="https://www.linkedin.com/in/che-yi-hung/" target="_blank"><h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;" >{{about.position}}</h2></a>
 					<font color="black">
 						Geographer, Urban Planner, Data Analysis and Python developments<br>
-
-						I dedicate to<br>
+						I'm dedicated to<br>
 						<ul>
 							<li><font color="black">Data Interpretation</font>,clearify the relation of the phenomenom observed</li>
 							<li><font color="black">Task Automation</font> ,for time should be used on productivity</li>
@@ -126,9 +118,8 @@
 							#Taiwan #Germany, managing with the variety of different society and environment</font>
 				</div>
 			</div>
-
-
 </section>
+
 <section class="ftco-section-2 img" style="background-image: url({% static 'pages/images/ndvi.jpg' %});" id="experience-section">
 	<div class="container">
 		<div class="row d-md-flex justify-content-end">
@@ -142,7 +133,7 @@
 						</a>
 						{% endfor %}
 						{% for edu in edus %}
-						<a href="#" target="_blank" class="services-wrap ftco-animate">
+						<a href="{{edu.link}}" target="_blank" class="services-wrap ftco-animate">
 							<h2>{{edu.major}}</h2>
 							<p>{{edu.time}} | {{edu.name}}</p>
 						</a>
