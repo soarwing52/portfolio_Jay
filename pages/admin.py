@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Skill, Project, Section, About, Education, WorkExperience,Blog, BigProject
+from .models import Skill, Project, Section, About, Education, WorkExperience,Blog, BigProject, Links
 # Register your models here.
 admin.site.register(Section)
 admin.site.register(Skill)
@@ -8,6 +8,7 @@ admin.site.register(Project)
 admin.site.register(About)
 admin.site.register(Education)
 admin.site.register(BigProject)
+admin.site.register(Links)
 
 class WorkAdmin(admin.ModelAdmin):
     list_display= ('name', 'time', 'position')

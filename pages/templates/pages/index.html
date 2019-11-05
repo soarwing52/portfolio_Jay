@@ -56,8 +56,6 @@
 							<span class="subheading">Hi! Welcom to my page</span>
 							<h1 class="mb-4 mt-3">Analysis+Execution= <span>Solution</span></h1>
 							<p>GIS Engineer & Analysis, ESRI & Python</p>
-
-
 							<p><a href="#contact-section" class="btn btn-primary px-5 py-3 mt-3">Get in touch</a></p>
 						</div>
 					</div>
@@ -100,8 +98,6 @@
 	</div>
 </section>
 
-
-
 <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 	<div class="container">
 		<div class="row d-flex">
@@ -113,7 +109,7 @@
 				<div class="col-md-12 heading-section ftco-animate">
 					<span class="subheading">About Me</span>
 					<a href="https://www.linkedin.com/in/che-yi-hung/" target="_blank"><h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;" >{{about.position}}</h2></a>
-					<p><font color="black">
+					<font color="black">
 						Geographer, Urban Planner, Data Analysis and Python developments<br>
 
 						I dedicate to<br>
@@ -127,7 +123,7 @@
 							Other than working life, I'm an enthusiast in outdoor and sports from kitesurfing, rock climbing, cycling, diving, etc. <br>
 							The one common thing in all these is that, they all require a green and clean environment<br>
 							That's what I devote to, full time and with all my life.<br>
-							#Taiwan #Germany, managing with the variety of different society and environment</font></p>
+							#Taiwan #Germany, managing with the variety of different society and environment</font>
 				</div>
 			</div>
 
@@ -142,7 +138,7 @@
 						{% for wrk in works %}
 						<a class="services-wrap ftco-animate">
 							<h2>{{wrk.position}}</h2>
-							<p>{{wrk.time}}  |  {{wrk.name}}</p>
+							<p>{{wrk.time}} | {{wrk.name}}</p>
 						</a>
 						{% endfor %}
 						{% for edu in edus %}
@@ -194,7 +190,7 @@
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<span class="subheading">Blog</span>
 				<h2 class="mb-4">My Develop Blog</h2>
-				<p>More Detailed information of developed projects and related informations</p>
+				<p>More Detailed information of developed projects and related information</p>
 			</div>
 		</div>
 		<div class="row d-flex">
@@ -286,10 +282,10 @@
 					</div>
 					<div class="col-md">
 						<div class="ftco-footer-widget mb-4 ml-md-4">
-							<h2 class="ftco-heading-2">Sections</h2>
+							<h2 class="ftco-heading-2">Links</h2>
 							<ul class="list-unstyled">
-								{% for section in sections %}
-								<li><a href="{{section.name}}"><span class="icon-long-arrow-right mr-2"></span>{{section.title}}</a></li>
+								{% for link in links %}
+								<li><a href="{{link.link}}" target="_blank" ><span class="icon-long-arrow-right mr-2"></span>{{link.title}}</a></li>
 								{% endfor %}
 							</ul>
 						</div>
@@ -319,8 +315,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
-						<div>Icons made by <a href="https://www.flaticon.com/authors/turkkub" title="turkkub">turkkub</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+						<div><p> Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/"  title="Flaticon">www.flaticon.com</a></p></div>
+						<div><p>Icons made by <a href="https://www.flaticon.com/authors/turkkub" title="turkkub">turkkub</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p></div>
 						<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
@@ -329,12 +325,8 @@
 			</div>
 		</footer>
 
-
-
 		<!-- loader -->
 		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
 		<script src="{% static 'pages/js/jquery.min.js' %}"></script>
 		<script src="{% static 'pages/js/jquery-migrate-3.0.1.min.js' %}"></script>
 		<script src="{% static 'pages/js/popper.min.js' %}"></script>
