@@ -4,6 +4,6 @@ from . import views
 
 app_name = 'pages'
 urlpatterns = [
-    path('origin/', views.index, name='index'),
-    path('', views.test)
+    path('', views.index, name='index'),
+    path('test/', views.test)
     ]

@@ -3,7 +3,8 @@ from datetime import datetime
 # Create your models here.
 class Skill(models.Model):
     title = models.CharField(max_length=50)
-    content = models.TextField()
+    content = models.TextField(blank=True)
+    summary = models.TextField(blank=True)
     select = models.BooleanField()
     icon = models.CharField(max_length=50, null=True, blank=True)
 
@@ -12,6 +13,15 @@ class Skill(models.Model):
 
 class Project(models.Model):
     name = models.CharField(max_length=20)
+    content = models.TextField()
+    link = models.URLField(max_length=500, null=True, blank=True)
+    image = models.CharField(null=True, blank=True, max_length=50)
+
+    def __str__(self):
+        return self.name
+
+class BigProject(models.Model):
+    name =models.CharField(max_length=20)
     content = models.TextField()
     link = models.URLField(max_length=500, null=True, blank=True)
     image = models.CharField(null=True, blank=True, max_length=50)
