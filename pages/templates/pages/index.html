@@ -120,30 +120,7 @@
 			</div>
 </section>
 
-<section class="ftco-section-2 img" style="background-image: url({% static 'pages/images/ndvi.jpg' %});" id="experience-section">
-	<div class="container">
-		<div class="row d-md-flex justify-content-end">
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-12">
-						{% for wrk in works %}
-						<a class="services-wrap ftco-animate">
-							<h2>{{wrk.position}}</h2>
-							<p>{{wrk.time}} | {{wrk.name}}</p>
-						</a>
-						{% endfor %}
-						{% for edu in edus %}
-						<a href="{{edu.link}}" target="_blank" class="services-wrap ftco-animate">
-							<h2>{{edu.major}}</h2>
-							<p>{{edu.time}} | {{edu.name}}</p>
-						</a>
-						{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+
 
 <section class="ftco-section" id = "skills-section">
 	<div class="container">
@@ -174,6 +151,30 @@
 	</div>
 </section>
 
+<section class="ftco-section-2 img" style="background-image: url({% static 'pages/images/ndvi.jpg' %});" id="experience-section">
+	<div class="container">
+		<div class="row d-md-flex justify-content-end">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						{% for wrk in works %}
+						<a class="services-wrap ftco-animate">
+							<h2>{{wrk.position}}</h2>
+							<p>{{wrk.time}} | {{wrk.name}}</p>
+						</a>
+						{% endfor %}
+						{% for edu in edus %}
+						<a href="{{edu.link}}" target="_blank" class="services-wrap ftco-animate">
+							<h2>{{edu.major}}</h2>
+							<p>{{edu.time}} | {{edu.name}}</p>
+						</a>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="ftco-section bg-light" id="blog-section">
 	<div class="container">
