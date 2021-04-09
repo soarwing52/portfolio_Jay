@@ -26,7 +26,7 @@ SECRET_KEY = 'z+9-4vo%16qek4lm@1v3jmvxl%yx-)ejp$75qs_kyjzr&^ju&r'
 DEBUG = True
 
 ALLOWED_HOSTS = ['jaythecheyi.pythonanywhere.com',
-                 '127.0.0.1']
+                 'localhost']
 
 
 # Application definition
@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'jay_profolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'pgdb',
+        'PORT': 5432,
     }
 }
 
