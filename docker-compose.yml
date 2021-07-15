@@ -4,8 +4,8 @@ services:
   pgdb:
     image: postgres
     container_name: pgdb
-    volumes:
-      - ./data/db:/var/lib/postgresql/data
+    # volumes:
+    #   - ./data/db:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
@@ -15,8 +15,15 @@ services:
     container_name: django
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - .:/code
+      - ".:/jay_profolio"
     ports:
       - "8000:8000"
     depends_on:
       - pgdb
+
+  # jenkins:
+  #   image: jenkins/jenkins:lts
+  #   container_name: jenkins
+  #   ports: 
+  #     - "8080:8080"
+  #     - "50000:50000"
